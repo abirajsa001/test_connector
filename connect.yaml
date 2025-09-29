@@ -54,7 +54,7 @@ deployAs:
         - key: NOVALNET_TEST_MODE
           description: Enable test mode for Novalnet
           required: false
-          default: true
+          default: "true"
       securedConfiguration:
         - key: CTP_CLIENT_SECRET
           description: commercetools client secret
